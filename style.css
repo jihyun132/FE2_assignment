@@ -18,46 +18,52 @@ body {
 /*왼쪽*/
 .left{
     padding-left: 0px;
+    width: 450px;
 }
 
 .title1 {
     font-style: italic;
     font-size: 45px;
+    margin: 10px 0px;
 }
 
 .txt {
     display: block;
-    width: 450px;
+    margin: 10px 0px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
 }
 
 .container {
     display: flex;
     justify-content: column;
+    margin: 10px 0px;
 }
 
 .box {
     background-color: aliceblue;
     color: black;
     
-    width: 100px;
+    width: 150px;
     height: 100px;
     padding: 30px 10px;
     margin: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
     
     display: flex;
     justify-content: center;
     align-items: center;
 
-    font-style: oblique;
-    font-size: 20px;
-    
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /*오른쪽*/
 .right {
-    margin-right: 0px;
     justify-content: center;
+    align-items: center;
+    margin-top: 130px;
 }
 
 .title2 {
@@ -69,35 +75,34 @@ body {
     background-image: url(user-solid.svg);
     background-size: 15px;
     background-repeat: no-repeat;
-    background-position: 5px center;
-    padding-left: 30px;
+    background-position: 15px center;
+    padding-left: 40px;
 }
 
 
 #PW input{
     background-image: url(lock-solid.svg);
-    
     background-size: 15px;
     background-repeat: no-repeat;
-    background-position: 5px center;
-    padding-left: 30px;
+    background-position: 15px center;
+    padding-left: 40px;
 }
 
 .input {
     display: flex;
-    width: 300px;
-    height: 35px;
+    width: 250px;
     margin-bottom: 10px;
+    padding: 13px;
     border-radius: 50px;
     font-style: italic;
 }
 
 .button {
     width: 200px;
-    height: 30px;
     border-radius: 50px;
     margin: 10px;
+    padding: 10px;
     background-color: #f09837;
     color: aliceblue;
-
+    font-weight: 600;
 }
