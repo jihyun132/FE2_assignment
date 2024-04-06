@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+.title {
+    font-style: italic;
+}
+
+.txt{
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+	flex-direction: row;
+    justify-content: space-between;
+}
+
+.left,
+.right {
+	display: flex;
+	flex-direction: column;
+}
+
+.left{
+    padding-left: 100px;
+    padding-right: 500px;
+}
+
+.right {
+    margin-right: 100px;
+    justify-content: center;
+}
