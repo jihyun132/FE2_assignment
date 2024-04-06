@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: purple;
     color: aliceblue;
 }
 
@@ -7,32 +7,68 @@ body {
     display: flex;
     justify-content: space-between;
 	flex-direction: row;
-    justify-content: space-between;
 }
 
 .left,
 .right {
-	display: flex;
+    display: flex;
 	flex-direction: column;
 }
 
+/*왼쪽*/
 .left{
-    padding-left: 100px;
-    padding-right: 500px;
+    padding-left: 0px;
 }
 
-.right {
-    margin-right: 100px;
-    justify-content: center;
-}
-
-.title {
+.title1 {
     font-style: italic;
+    font-size: 45px;
 }
 
 .txt {
-    margin-bottom: 20px;
+    display: block;
+    width: 400px;
+}
+
+.container {
+    display: flex;
+    justify-content: column;
 }
 
 .box {
+    background-color: aliceblue;
+    color: black;
+    
+    width: 100px;
+    height: 100px;
+    padding: 30px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*오른쪽*/
+.right {
+    margin-right: 0px;
+    justify-content: center;
+}
+
+.title2 {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+.button {
+    border-radius: 50px;
 }

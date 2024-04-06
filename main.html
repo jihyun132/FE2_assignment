@@ -7,28 +7,35 @@
     <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-    <img src="./likelion.png" alt="멋사 사진" style="width: 130px; margin-top: 125px; margin-left: 100px;">
-    
-    <div class="row">
 
+    <div class="row">
+        
         <!--왼쪽-->
         <div class="left">
-            <h1 class="title">LIKE LION</h1>
+            <img src="./likelion.png" alt="멋사 사진" style="width: 130px; margin-top: 125px; !important">
+
+            <h1 class="title1">LIKE LION</h1>
             <p class="txt">
                 우리는 '성장 의지를 가진 사람들을 돕기 위해' 존재합니다. 그리고 이들을 돕기 위한 가장 근본적이고 효과적인 방법은 교육이라고 생각합니다.</p>
             <p class="txt">지금 바로 지원하세요!</p>
 
-            <span class="box">Plan & Design</span>
-            <span class="box">Frontend</span>
-            <span class="box">Backend</span>
+            <div class="container">
+                <div class="box">Plan & Design</div>
+                <div class="box">Frontend</div>
+                <span class="box">Backend</span>
+            </div>
 
         </div>
 
         <!--오른쪽-->
         <div class="right">
-            <h2 class="title">LOGIN</h2>
-            <input class="txt" type="text" name="아이디" placeholder="ID"/>
-            <input class="txt" type="password" name="비밀번호" placeholder="PW"/>
+            <h2 class="title2">LOGIN</h2>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="21" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+                <input class="input" type="text" name="아이디" placeholder="ID"/>
+            </div>
+            <input class="input" type="password" name="비밀번호" placeholder="PW"/>
+            <a href="https://google.com"><button class="button">로그인 후 지원하기</button></a>
         </div>
 
     </div>
