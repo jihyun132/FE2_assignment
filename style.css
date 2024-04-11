@@ -21,6 +21,20 @@ body {
     width: 450px;
 }
 
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bars {
+    display: none;
+    height: 30px;
+    margin: 120px 20px 0px 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 .title1 {
     font-style: italic;
     font-size: 45px;
@@ -109,3 +123,21 @@ body {
     color: aliceblue;
     font-weight: 600;
 }
+
+@media screen and (max-width: 850px) {
+    body {
+      .right{
+        display: none;
+      }
+      
+      }
+      .right.active{
+        display: block;
+      }
+      .left.active{
+        display: none;
+      }
+      .bars{
+        display: block;
+    }
+  }
